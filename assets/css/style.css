@@ -1,0 +1,319 @@
+/* Structure et Généralités */
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Architects Daughter', cursive;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+/* Fin structure */
+
+/* Début Header */
+header {
+    height: 100%;
+    background-image: url(../img/littleitalyweb.png);
+    background-size: cover;
+}
+
+#adresse {
+    background-color: rgba(36, 36, 36, 0.822);
+    border-radius: 30px;
+}
+
+.coord {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 1em;
+}
+
+.horaires {
+    margin-bottom: 0px;
+}
+
+/* Fin du header */
+/* Nav barre du haut */
+.bg-black {
+    background-color: black;
+}
+
+.nav-item {
+    margin-right: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav-item:first-child {
+    margin-right: auto;
+    margin-left: 2rem;
+}
+
+.first {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.first ul {
+    margin: 0;
+}
+
+/* Nav barre du bas */
+.last-nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.last ul {
+    margin: 0;
+}
+
+.item-nav {
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.calendar,
+.phone,
+.mail,
+.adress {
+    vertical-align: middle;
+    width: 2em;
+    height: 2em;
+}
+.hover:hover {
+    color: #c4bbbb;
+}
+
+/* Fin barre */
+/* MAIN-Généralités */
+main {
+    color: black;
+}
+
+#propos{
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#pizzas,
+#pates,
+#desserts {
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.h-60 {
+    height: 60%;
+}
+.h-40 {
+    height: 40%;
+}
+.text {
+    background-color: thistle;
+    border: 1px solid thistle;
+    border-radius: 25px;
+    padding: 1em;
+    filter: opacity(75%)
+}
+
+.nothing {
+    width: 50%;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Main-Parts */
+#propos {
+    background-image: url(../img/propos.png);
+}
+
+#pizzas {
+    background-image: url(../img/pizzas.png);
+}
+
+#pates {
+    background-image: url(../img/pates.png);
+}
+
+#desserts {
+    background-image: url(../img/dessertweb.png);
+}
+
+/* Main-Contact */
+#contact {
+    background-image: url(../img/contact.jpg);
+    justify-content: space-evenly;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+#contact .text {
+    filter: opacity(95%);
+    width: 15%;
+}
+
+#contact input {
+    background: none;
+    border: none;
+}
+
+#button {
+    text-align: end;
+}
+
+#contact .nothing {
+    font-size: x-large;
+    width: 17.5%;
+    margin-top: 7em;
+}
+
+/* Fin Main */
+/* Footer */
+#footer {
+    height: 50%;
+    background-image: url(../img/footer.png);
+    background-size: cover;
+    display: flex;
+    color: white;
+    padding-bottom: 1em;
+}
+
+.footer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h3 {
+    margin: 1em 0 0.5em 0;
+}
+
+#rs img {
+    vertical-align: middle;
+    height: 3em;
+    width: 3em;
+}
+
+.last {
+    position: sticky;
+    position: -webkit-sticky;
+    bottom: 0;
+    margin: 0px;
+    padding: 1px;
+    background-color: rgba(44, 29, 29, 0.719);
+}
+
+/* Fin footer */
+/* Mentions légales */
+#mentions {
+    background: url(../img/beton_noir.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    padding: 2em;
+}
+
+/* Collapse */
+.collapsemenu {
+    display: block;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height .5s cubic-bezier(0, 1, 0, 1);
+}
+
+.collapse.show {
+    max-height: 99em;
+    transition: max-height .5s ease-in-out;
+}
+
+
+.block {
+    margin-top: 10px;
+    background-image: url(../img/fondcollapse.png);
+    background-size: cover;
+    padding: 0;
+    background-image: url(../img/fondcollapse.jpg);
+
+}
+
+.block__content {
+    border: Opx solid rgb(173, 75, 75);
+    padding: 1.5em;
+    height: 100%;
+}
+
+.testcol {
+    text-align: center;
+}
+
+/* Fin coolapse */
+
+button{
+    background-color: thistle;
+    border: none;
+    border-radius: 5px;
+}
+
+.nav-bottom {
+    line-height: 2em;
+    margin-left: .5em;
+}
+
+@media screen and (min-width: 1200px) {
+
+    .w {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    
+    #pates {
+        background-position: right;
+    }
+    header {
+        background-position: center;
+    }
+}
+@media screen and (max-width: 1200px) {
+
+    .last {
+        position: static ;
+    }
+}
+
