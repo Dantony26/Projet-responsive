@@ -317,3 +317,10 @@ button{
     }
 }
 
+
+@media screen and (max-width: 776px) {
+
+    .mb-sm {
+        margin-bottom: 15em;
+    }
+}
