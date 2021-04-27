@@ -28,6 +28,13 @@ header {
     background-size: cover;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
 #adresse {
     background-color: rgba(36, 36, 36, 0.822);
     border-radius: 30px;
@@ -100,6 +107,7 @@ header {
     width: 2em;
     height: 2em;
 }
+
 .hover:hover {
     color: #c4bbbb;
 }
@@ -110,7 +118,7 @@ main {
     color: black;
 }
 
-#propos{
+#propos {
     height: 100vh;
     background-size: cover;
     display: flex;
@@ -128,12 +136,15 @@ main {
     align-items: center;
     flex-direction: column;
 }
+
 .h-60 {
     height: 60%;
 }
+
 .h-40 {
     height: 40%;
 }
+
 .text {
     background-color: thistle;
     border: 1px solid thistle;
@@ -283,7 +294,7 @@ footer h3 {
 
 /* Fin coolapse */
 
-button{
+button {
     background-color: thistle;
     border: none;
     border-radius: 5px;
@@ -302,18 +313,20 @@ button{
 }
 
 @media screen and (max-width: 1300px) {
-    
+
     #pates {
         background-position: right;
     }
+
     header {
         background-position: center;
     }
 }
+
 @media screen and (max-width: 1200px) {
 
     .last {
-        position: static ;
+        position: static;
     }
 }
 

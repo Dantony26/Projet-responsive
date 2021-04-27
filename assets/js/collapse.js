@@ -22,3 +22,17 @@ const collapse = (selector, cmd) => {
     target.classList[fnmap[cmd]]('show');
   });
 }
+
+
+window.onscroll = function() {myFunction()};
+
+var navi = document.getElementById("navbar");
+var sticky = navi.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    navi.classList.add("sticky");
+  } else {
+    navi.classList.remove("sticky");
+  }
+}
