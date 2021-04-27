@@ -227,6 +227,8 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 90%;
+    margin: auto;
 }
 
 footer h3 {
@@ -334,5 +336,13 @@ button {
 
     .mb-sm {
         margin-bottom: 15em;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+
+    .h-60 {
+        height: 80%;
     }
 }
